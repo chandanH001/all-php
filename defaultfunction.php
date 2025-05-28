@@ -1,9 +1,9 @@
 <?php
-function copyServe($coffee = 'Coffee', $noOfCoffee = '1 Cup ')
+function coffeeServe($coffee = 'Coffee', $noOfCoffee = '1 Cup ')
 {
 
     echo "{$noOfCoffee} {$coffee} dan ";
 
 }
 
-copyServe('coklet', '10 pices');
+coffeeServe('coklet', '10 pices');
